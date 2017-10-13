@@ -1,0 +1,17 @@
+
+  
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+
+logging:
+  level:
+    root: INFO
+    com.netflix.discovery: DEBUG
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://liuwei-eureka.liuwei-eureka--staging:8761/eureka/
