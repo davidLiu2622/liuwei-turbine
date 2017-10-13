@@ -10,6 +10,7 @@ logging:
   level:
     root: INFO
     com.netflix.discovery: DEBUG
+    
 
 eureka:
   client:
